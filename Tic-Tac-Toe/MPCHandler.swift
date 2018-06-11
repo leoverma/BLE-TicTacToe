@@ -46,7 +46,7 @@ class MPCHandler: NSObject, MCSessionDelegate {
 
         DispatchQueue.main.async {
 //            print("Main thread")
-            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "MPC_DidChangeStateNotification"), object: nil, userInfo: userInfo)
+            NotificationCenter.default.post(name: .MPC_DidChangeStateNotification, object: nil, userInfo: userInfo)
         }
     }
     
@@ -54,7 +54,7 @@ class MPCHandler: NSObject, MCSessionDelegate {
         let userInfo = ["data": data, "peerID":peerID] as [String: Any]
         DispatchQueue.main.async {
 //            print("Main thread")
-            NotificationCenter.default.post(name: NSNotification.Name(rawValue: "MPC_DidReceiveDataNotification"), object: nil, userInfo: userInfo)
+            NotificationCenter.default.post(name: .MPC_DidReceiveDataNotification, object: nil, userInfo: userInfo)
         }
     }
     

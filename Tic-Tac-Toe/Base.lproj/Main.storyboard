@@ -21,39 +21,39 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="base" translatesAutoresizingMaskIntoConstraints="NO" id="DL8-E0-55S">
                                 <rect key="frame" x="0.0" y="187" width="375" height="342"/>
                             </imageView>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross" translatesAutoresizingMaskIntoConstraints="NO" id="3sX-3y-s3V" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3sX-3y-s3V" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="15" y="187" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="PBl-zb-G4K"/>
                                     <constraint firstAttribute="height" constant="100" id="dov-cb-sXo"/>
                                 </constraints>
                             </imageView>
-                            <imageView tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross" translatesAutoresizingMaskIntoConstraints="NO" id="5fG-ZJ-fx7" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5fG-ZJ-fx7" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="133" y="187" width="109" height="109"/>
                             </imageView>
-                            <imageView tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross" translatesAutoresizingMaskIntoConstraints="NO" id="hCy-V6-XOi" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hCy-V6-XOi" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="249" y="187" width="109" height="109"/>
                             </imageView>
-                            <imageView tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cross" translatesAutoresizingMaskIntoConstraints="NO" id="UUI-uP-dHq" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UUI-uP-dHq" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="15" y="311" width="109" height="109"/>
                             </imageView>
-                            <imageView tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zero" translatesAutoresizingMaskIntoConstraints="NO" id="zXX-vg-jN8" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zXX-vg-jN8" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="133" y="303" width="109" height="109"/>
                             </imageView>
-                            <imageView tag="5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross" translatesAutoresizingMaskIntoConstraints="NO" id="Fg3-ab-dFY" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fg3-ab-dFY" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="249" y="303" width="109" height="109"/>
                             </imageView>
-                            <imageView tag="6" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross" translatesAutoresizingMaskIntoConstraints="NO" id="YXx-UY-EEm" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
-                                <rect key="frame" x="15" y="417" width="100" height="100"/>
-                            </imageView>
-                            <imageView tag="7" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross" translatesAutoresizingMaskIntoConstraints="NO" id="fea-vg-GOV" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="7" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fea-vg-GOV" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="133" y="420" width="109" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="109" id="SIQ-rM-Xie"/>
                                 </constraints>
                             </imageView>
-                            <imageView tag="8" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zero" translatesAutoresizingMaskIntoConstraints="NO" id="eGD-3w-TKx" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="8" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eGD-3w-TKx" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="249" y="420" width="109" height="109"/>
+                            </imageView>
+                            <imageView tag="6" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YXx-UY-EEm" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="15" y="424" width="100" height="100"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -147,7 +147,5 @@
     </scenes>
     <resources>
         <image name="base" width="436" height="395"/>
-        <image name="cross" width="86" height="86"/>
-        <image name="zero" width="86" height="86"/>
     </resources>
 </document>
