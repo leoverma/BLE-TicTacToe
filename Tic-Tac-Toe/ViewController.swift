@@ -126,11 +126,24 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate {
         var winner = ""
         
         
+        // Column test
         if fields[0].player == "x" && fields[1].player == "x" && fields[2].player == "x"{
             winner = "x"
         }else if fields[0].player == "o" && fields[1].player == "o" && fields[2].player == "o"{
             winner = "o"
         }
+        if fields[3].player == "x" && fields[4].player == "x" && fields[5].player == "x"{
+            winner = "x"
+        }else if fields[3].player == "o" && fields[4].player == "o" && fields[5].player == "o"{
+            winner = "o"
+        }
+        if fields[6].player == "x" && fields[7].player == "x" && fields[8].player == "x"{
+            winner = "x"
+        }else if fields[6].player == "o" && fields[7].player == "o" && fields[8].player == "o"{
+            winner = "o"
+        }
+        
+        // ROW Test
         if fields[0].player == "x" && fields[3].player == "x" && fields[6].player == "x"{
             winner = "x"
         }else if fields[0].player == "o" && fields[3].player == "o" && fields[6].player == "o"{
@@ -147,17 +160,7 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate {
             winner = "o"
         }
         
-        if fields[3].player == "x" && fields[4].player == "x" && fields[5].player == "x"{
-            winner = "x"
-        }else if fields[3].player == "o" && fields[4].player == "o" && fields[5].player == "o"{
-            winner = "o"
-        }
         
-        if fields[6].player == "x" && fields[7].player == "x" && fields[8].player == "x"{
-            winner = "x"
-        }else if fields[6].player == "o" && fields[7].player == "o" && fields[8].player == "o"{
-            winner = "o"
-        }
         
         
         // Digonal
@@ -172,17 +175,20 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate {
         }else if fields[2].player == "o" && fields[4].player == "o" && fields[6].player == "o"{
             winner = "o"
         }
-        print("Winner is \(winner)")
         
         if winner != "" {
-        let alert = UIAlertController(title: "Winnner", message: "\(winner) is winner", preferredStyle: .alert)
-        
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        self.present(alert, animated: true)
+            let alert = UIAlertController(title: "Winnner", message: "\(winner) is winner", preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
+                self.resetGame()
+            }))
+            self.present(alert, animated: true)
         }
         
     }
-    
+    func resetGame(){
+        print("reset Game")
+    }
     func setupFields(){
         for index in 0...fields.count - 1 {
             let gestureRecognizer = UITapGestureRecognizer(target: self,
